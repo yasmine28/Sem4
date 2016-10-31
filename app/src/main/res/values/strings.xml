@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyPetsSem3</string>
+    <string name="pnombre">Lola</string>
+    <string name="ptipo">perro</string>
+</resources>
