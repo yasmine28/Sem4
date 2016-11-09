@@ -1,7 +1,6 @@
-package mx.yasmine.mypetssem3;
+package mx.yasmine.mypetssem4;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,19 +16,19 @@ import java.util.ArrayList;
  * Created by Yasmine on 27/10/2016.
  */
 
-public class MascotaAdapter extends RecyclerView.Adapter<MascotaAdapter.MascotaViewHolder>{
+public class MascotaFavAdapter extends RecyclerView.Adapter<MascotaFavAdapter.MascotaViewHolder>{
 
     ArrayList<Mascota> mascotas;
     Activity activity;
 
-    public MascotaAdapter(ArrayList<Mascota> mascotas, Activity activity){
+    public MascotaFavAdapter(ArrayList<Mascota> mascotas, Activity activity){
         this.mascotas = mascotas;
         this.activity = activity;
 
     }
     @Override
     public MascotaViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_view_mascota,parent,false);
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.cv_mascotas_fav,parent,false);
         return new MascotaViewHolder(v);
     }
 

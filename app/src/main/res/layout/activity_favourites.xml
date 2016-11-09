@@ -4,7 +4,7 @@
     android:id="@+id/activity_favourites"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="mx.yasmine.mypetssem3.FavouritesActivity">
+    tools:context="mx.yasmine.mypetssem4.activities.FavouritesActivity">
 
     <include android:id="@+id/miActionBar"
         layout="@layout/app_bar"
